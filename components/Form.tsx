@@ -68,6 +68,7 @@ export const Form: FC = () => {
         try {
             let txid = await sendTransaction(transaction, connection)
             console.log(`Transaction submitted: https://explorer.solana.com/tx/${txid}?cluster=devnet`)
+            console.log(`Temp log to force update`)
           } catch (e) {
             alert(JSON.stringify(e))
           }
