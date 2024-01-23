@@ -53,7 +53,7 @@ export const Form: FC = () => {
                 {
                     pubkey: web3.SystemProgram.programId,
                     isSigner: false,
-                    isWritable: true 
+                    isWritable: false 
                 },
             ],
             programId: movieProgramID,
